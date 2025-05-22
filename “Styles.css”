@@ -1,0 +1,53 @@
+/* Custom styles for Market Place Farm */
+.primary-color { 
+  color: #2C5F2D; 
+}
+
+.primary-bg { 
+  background-color: #2C5F2D; 
+}
+
+.accent-color { 
+  color: #FF6B35; 
+}
+
+.accent-bg { 
+  background-color: #FF6B35; 
+}
+
+.product-image-container { 
+  height: 250px;
+  overflow: hidden;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.product-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.product-img:hover {
+  transform: scale(1.05);
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
+/* Hover effects */
+.hover\:bg-opacity-90:hover {
+  opacity: 0.9;
+}
+
+.transition {
+  transition: all 0.3s ease;
+}
